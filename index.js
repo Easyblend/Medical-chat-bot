@@ -8,7 +8,7 @@ const askquestion = async () => {
     url: "https://chatgpt53.p.rapidapi.com/",
     headers: {
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "839ea37f2fmsh798b9b58e610d05p1de960jsn98c1f5d0d4d9",
+      "X-RapidAPI-Key": "find your api key", //api key here
       "X-RapidAPI-Host": "chatgpt53.p.rapidapi.com",
     },
     body: JSON.stringify({

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Bot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col vh-100">
+          <h3 class="text-center pt-5 fs-1">Welma Health Bot</h3>
+          <div class="bot-pic rounded-5 pt-5">
+            <img
+              src="https://images.pexels.com/photos/13471116/pexels-photo-13471116.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+              class="rounded-5 mx-auto d-flex"
+              width="100px"
+              height="100px"
+            />
+
+            <div class="chat-zone p-5 col-sm-6 col-12">
+                <div class="user-question text-light bg-primary py-2 px-4 rounded-3 ms-auto">How are you lorem!</div>
+                <div class="bot-answer text-dark shadow-sm bg-info py-2 px-2 rounded-3 mt-3 ms-auto">res quidem! Ratione non eos omnis, accusantium architecto expedita vitae ducimus animi.</div>
+              <form class="mt-4">
+              <form class="mt-4">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control p-2"
+                    placeholder="Ask me about health..."
+                  />
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col banner d-sm-block d-none"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

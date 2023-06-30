@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.317);
+  background-image: url("https://wallpapercrafter.com/desktop1/594115-network-robotics-android-ai-artificial-intelligence.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-blend-mode: saturation;
+}
+
+.chat-zone {
+  position: fixed;
+  bottom: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.162);
+}
+
+.user-question,
+.bot-answer {
+  width: fit-content;
+}

@@ -16,7 +16,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col vh-100">
-          <h3 class="text-center pt-5 fs-1">Welma Health Bot</h3>
+          <h3 class="text-center pt-5 fs-1">Welma's Health Bot</h3>
           <div class="bot-pic rounded-5 pt-5">
             <img
               src="https://images.pexels.com/photos/13471116/pexels-photo-13471116.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -27,14 +27,21 @@
             />
 
             <div class="chat-zone p-5 col-sm-6 col-12">
-                <div class="user-question text-light bg-primary py-2 px-4 rounded-3 ms-auto">How are you lorem!</div>
-                <div class="bot-answer text-dark shadow-sm bg-info py-2 px-2 rounded-3 mt-3 ms-auto">res quidem! Ratione non eos omnis, accusantium architecto expedita vitae ducimus animi.</div>
-              <form class="mt-4">
-              <form class="mt-4">
+              <div
+                class="user-question text-light bg-primary py-2 px-4 rounded-3 ms-auto"
+              ></div>
+              <div
+                class="bot-answer text-dark shadow-sm bg-info py-2 px-2 rounded-3 mt-3 me-auto"
+              >
+                Hi I'm <span class="fw-bold">Welma</span>, your personal health
+                chat bot, How can i assist you today
+              </div>
+
+              <form class="mt-4" onsubmit="askquestion();return false;">
                 <div class="input-group">
                   <input
                     type="text"
-                    class="form-control p-2"
+                    class="form-control p-2 question"
                     placeholder="Ask me about health..."
                   />
                   <div class="input-group-append">
